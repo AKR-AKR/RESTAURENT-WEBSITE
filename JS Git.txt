@@ -1,0 +1,6 @@
+console.log("from script file");// script.js
+
+// Example: Show an alert when the "View Menu" button is clicked
+document.querySelector('.cta-button').addEventListener('click', function() {
+    alert('Menu page coming soon!');
+});
